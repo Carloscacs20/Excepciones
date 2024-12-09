@@ -1,0 +1,25 @@
+Excepciones en Java
+Son problemas o eventos que ocurren durante la ejecucion del programa que interrumpe el flujo normal
+se dan en tiempo de ejecucion 
+son errores de programacion
+
+Caracteristicas
+-Separa el codigo que gestiona los errores del codigo principal del programa
+-Nos permita manejar el error y continuar con la ejecucon del programa
+-Agrupar y diferenciar entre diferentes tipos de errores
+-Propagar errores hacia arriba en la pila de llamadas
+
+Try
+Donde se ingresa los datos
+Si aparece un error
+Catch
+Captura los errores
+Finally
+opcional
+puede estar o no pero siempre se ejecuta
+
+cuando haya exception debo controlar
+runtimeException no necesariamente debemos contralar
+por cada tipo de error se puede poner un catch
+
+
